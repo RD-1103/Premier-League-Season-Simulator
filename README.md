@@ -2,16 +2,16 @@ Repository for Premier League Season Simulator
 
 Data for the model:
 	• I used data from the 2021/2022, 2022/2023, 2023/2024, and 2024/2025 seasons
-	• Used stats from previous years to understand how teams perform, but I gave more weight to recent seasons because I want current performance to be given the most importance
+ 	• Used stats from previous years to understand how teams perform, but I gave more weight to recent seasons because I want current performance to be given the most importance
 
-What stats to use
+What stats to use:
 	1. xG For and Against will adjust the model's scoring rate
 	2. Home and Away splits
 
-Weighting of seasons
+Weighting of seasons:
 	• 2024/2025 (current season): 50% weight.
 	• 2023/2024: 30% weight.
-	• 2022/2023: 15% weight.
+ 	• 2022/2023: 15% weight.
 	• 2021/2022: 5% weight.
 For a stat like xG For, the weighted value will look like: xGweighted = (50% x xG2024/25) + (30% x xG2023/24) + …
 
