@@ -25,11 +25,11 @@ Installation:
 git clone https://github.com/RD-1103/Premier-League-Season-Simulator.git
 cd Premier-League-Season-Simulator
 
-# Ensure these packages are installed and then loaded in your R environment.
+// Ensure these packages are installed and then loaded in your R environment.
 install.packages(c("dplyr", "tidyr", "ggplot2"))
 
 library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-# Ensure the file `PL_results_24_25.csv` is your directory and update the file path in the script.
+// Ensure the file `PL_results_24_25.csv` is your directory and update the file path in the script.
